@@ -25,6 +25,9 @@
   justify-content: flex-end;
 }
 
+.footer-nav ul {
+  display: flex;
+}
 .footer-nav ul li {
   flex: left;
 }
