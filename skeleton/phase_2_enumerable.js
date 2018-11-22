@@ -35,6 +35,10 @@ function addTwoNums(num1, num2) {
   return num1 + num2;
 }
 
+function multiplyTwoNums(num1, num2) {
+  return num1 * num2;
+}
+
 Array.prototype.myReduce = function(callback, initialValue) {
   let acc;
   if (initialValue === undefined) {
